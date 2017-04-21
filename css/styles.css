@@ -8,17 +8,17 @@
 }
 
 h1{
-  text-align: center;
+  text-align: left;
   color: darkred;
 }
 
 h2{
-  text-align:center;
+  text-align:left;
 }
 
 img {
-  float: left;
-  width: 20%;
+  float: right;
+  width: 60%;
   margin: 30px;
   border: 10px solid green;
   padding: 5px;
