@@ -1,5 +1,5 @@
 .container{
-  /*background-color: #bbbbbb;*/
+  background-color: #cccccc;
   text-align: left;
   padding-right: 15px;
   padding-left: 15px;
@@ -7,19 +7,11 @@
   margin-left: auto;
 }
 
-/*h1{
-  text-align: center;
-  color:darkred;
-}*/
-
 .important h1{
-  text-align: center;
+  text-align: left;
   font-size: 80px;
-  font-stretch: extra-expanded;
   color:green;
-  font-weight:400;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 80px;;
 }
 
 h2{
@@ -27,9 +19,10 @@ h2{
 }
 
 img {
-  float: center;
-  width:auto;
-  margin: 30px;
+  float: right;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border: 10px solid green;
   padding: 5px;
 }
