@@ -1,5 +1,5 @@
 .container{
-  background-color: #bbbbbb;
+  /*background-color: #bbbbbb;*/
   text-align: left;
   padding-right: 15px;
   padding-left: 15px;
@@ -7,9 +7,19 @@
   margin-left: auto;
 }
 
-h1{
-  text-align: left;
-  color: darkred;
+/*h1{
+  text-align: center;
+  color:darkred;
+}*/
+
+.important h1{
+  text-align: center;
+  font-size: 80px;
+  font-stretch: extra-expanded;
+  color:green;
+  font-weight:400;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 h2{
@@ -17,8 +27,8 @@ h2{
 }
 
 img {
-  float: right;
-  width: 60%;
+  float: center;
+  width:auto;
   margin: 30px;
   border: 10px solid green;
   padding: 5px;
@@ -34,4 +44,9 @@ ul{
 
 ol{
   font-family: sans-serif;
+}
+
+.omgwow{
+  font-variant: small-caps;
+  color: blue;
 }

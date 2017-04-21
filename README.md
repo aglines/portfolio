@@ -18,9 +18,6 @@ Create a universe.  Invent electricity and computers.  Clone site from GitHub an
 
 TBD
 
-## Usage
-
-TODO: Write usage instructions
 
 ## Copyright and License
 
