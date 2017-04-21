@@ -1,35 +1,59 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-
-    <!-- LINK TO BOOTSTRAP -->
-    <!-- LINK TO REGULAR CSS -->
-
-    <h1>Andrew Glines</h1>
-    <h2>Epicodus Portfolio</h2>
-    <img src="img/aglines.jpg">
+    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <img src="img/aglines.jpg" alt="Symbol for human in an alien language">
+    <div class="container">
+      <h1>Andrew Glines</h1>
+      <h2><em>Portfolio</em></h2>
+    </div>
   </head>
-
   <body>
-    <p>Links to GitHub repositories for Epicodus</p>
-    <a href="https://github.com/aglines/hello-world">Hello World</a>
-    <p>This code announces "Hello" to the world.</p>
+    <div class="container"><!--PROJ--><!--div name is now visible when min'd-->
+      <div class="row">
+        <div class="col-md-2">
+          <p>GITHUB PROJECTS</p>
+        </div>
 
-    <a href="https://github.com/aglines/pet-website/blob/master/pet-website.html">Pets Website</a>
-    <p>This code was about my pair that day's pets.</p>
+        <div class="col-md-10">
+          <!-- <p>GitHub Projects</p> -->
+          <a href="https://github.com/aglines/hello-world">Hello World</a>
 
-    <a href="https://github.com/aglines/adoption-shelter">Adoption Shelter</a>
-    <p>This code lists animals available for adoption at a fictional shelter.</p>
+          <a href="https://github.com/aglines/pet-website/blob/master/pet-website.html">Pets Website</a>
 
-    <p>ABOUT ME</p>
-    <p>Background</p>
-    <p>Experience</p>
-    <p>INTERESTS AND HOBBIES</p>
-    <p>Stuff</p>
-    <p>Things</p>
-    <p>Exercise: Weightlifting, bike rides</p>
-    <p>
+          <a href="https://github.com/aglines/adoption-shelter">Adoption Shelter</a>
+        </div>
+      </div><!--ROW-->
+    </div><!--CONTAINER-->
+
+    <div class="container"><!--ABOUTME-->
+      <div class="row">
+        <div class="col-md-2">
+        <p>ABOUT ME</p>
+        </div>
+
+
+        <div class="col-md-5">
+          <ul>
+            <li>Background</li>
+            <li>Experience</li>
+          </ul>
+        </div>
+
+
+        <div class="col-md-5">
+        <p>INTERESTS AND HOBBIES</p>
+          <ol>
+            <li>Linguistics and Languages</li>
+            <li><em>Organization and Mantras</em></li>
+            <li>Activity and Outdoors: Weightlifting, Bike Rides</li>
+          </ol>
+        </div>
+
+      </div>  <!--ROW-->
+    </div>   <!--CONTAINER-->
+
   </body>
 
 </html>

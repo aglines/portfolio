@@ -1,4 +1,4 @@
-# Author
+# Author and Contributors
 
 Andrew Glines
 
@@ -8,7 +8,7 @@ Portfolio Landing Page
 
 ## Description of Program
 
-A site to list my GitHub code, experience, background, and interests
+A portfolio site to show my GitHub code, experience, background, and interests
 
 ## Setup
 
@@ -24,7 +24,7 @@ TODO: Write usage instructions
 
 ## Copyright and License
 
-(tl;dr: MIT License)
+(tl;dr: MIT License)  Copyright (c) 2017 Andrew Glines and Epicodus
 
  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
